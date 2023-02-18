@@ -1,8 +1,8 @@
-package;
+package meta.states;
 
-import flixel.FlxState;
+import meta.data.BeatState;
 
-class PlayState extends FlxState
+class PlayState extends BeatState
 {
 	override public function create()
 	{
